@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nicksong.pullrefresh">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.FlingActivity"
+            android:label="弹性拖动"></activity>
+        <activity
+            android:name=".activities.NormalRefreshActivity"
+            android:label="经典下拉刷新"></activity>
+        <activity
+            android:name=".activities.NestedScrollingActivity"
+            android:label="NestedScrolling"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activities.ExpandActivity"
+            android:label="其他拓展下拉刷新"></activity>
+        <activity
+            android:name=".activities.ep.NormolEpActivity"
+            android:label="拓展控件（经典模式）"></activity>
+        <activity
+            android:name=".activities.ep.RGActivity"
+            android:label="拓展控件（混合模式1）"></activity>
+        <activity
+            android:name=".activities.ep.RG2Activity"
+            android:label="拓展控件（混合模式2）"></activity>
+        <activity
+            android:name=".activities.ep.DrawerEpActivity"
+            android:label="拓展控件（抽屉模式）"></activity>
+        <activity
+            android:name=".activities.ep.ScrollerEpActivity"
+            android:label="拓展控件（滑块模式）"></activity>
+        <activity
+            android:name=".activities.AllViewActivity"
+            android:label="其他控件"></activity>
+        <activity
+            android:name=".activities.ex.ScrollViewActivity"
+            android:label="ScrollView"></activity>
+        <activity
+            android:name=".activities.ex.TextViewActivity"
+            android:label="PullableTextView"></activity>
+        <activity
+            android:name=".activities.ex.RecyclerViewActivity"
+            android:label="RecyclerView"></activity>
+        <activity
+            android:name=".activities.OtherActivity"
+            android:label="其他效果"></activity>
+        <activity
+            android:name=".activities.other.MIFlingActivity"
+            android:label="仿小米阻尼"></activity>
+        <activity
+            android:name=".activities.other.HeaderActivity"
+            android:label="弹性头部"></activity>
+    </application>
+
+</manifest>
