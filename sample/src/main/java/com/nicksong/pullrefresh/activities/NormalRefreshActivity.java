@@ -39,7 +39,7 @@ public class NormalRefreshActivity extends AppCompatActivity implements BaseHead
         headerView = (BaseHeaderView) findViewById(R.id.header);
         footerView = (BaseFooterView) findViewById(R.id.footer);
 
-        list = getData(10);
+        list = getData(5);
 
         adapter = new ArrayAdapter(this, R.layout.item, list);
 
