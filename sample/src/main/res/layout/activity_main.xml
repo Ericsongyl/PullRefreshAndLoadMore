@@ -2,43 +2,62 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical"
     android:padding="10dp">
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="弹性拖动" />
+        android:layout_height="45dp"
+        android:text="弹性拖动"
+        android:visibility="gone"
+        android:textSize="18sp"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="经典下拉刷新" />
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:text="经典下拉刷新"
+        android:textSize="18sp"
+        android:textColor="@color/color_black1"
+        android:background="@color/color_yellow1"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="其他拓展下拉刷新" />
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:text="抽屉模式刷新"
+        android:textSize="18sp"
+        android:textColor="@color/color_white"
+        android:background="@color/color_black2"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="其他控件" />
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:text="滑块模式刷新"
+        android:textSize="18sp"
+        android:textColor="@color/color_black1"
+        android:background="@color/color_green1"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="其他效果" />
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:text="文本控件下拉刷新"
+        android:textSize="18sp"
+        android:textColor="@color/color_black1"
+        android:background="@color/color_gray"/>
 
     <Button
         android:id="@+id/button6"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="NestedScrolling" />
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:text="NestedScrolling"
+        android:visibility="gone"/>
 </LinearLayout>

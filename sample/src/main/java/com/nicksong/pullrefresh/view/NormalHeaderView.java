@@ -13,11 +13,11 @@ import com.nicksong.pullrefresh.utils.AnimUtil;
 import com.nicksong.pullrefresh.widget.support.type.LayoutType;
 
 public class NormalHeaderView extends BaseHeaderView {
-    TextView textView;
-    View tagImg;
-    View progress;
-    View stateImg;
 
+    private TextView textView;
+    private View tagImg;
+    private View progress;
+    private View stateImg;
 
     public NormalHeaderView(Context context) {
         this(context, null);
@@ -88,7 +88,6 @@ public class NormalHeaderView extends BaseHeaderView {
     public float getSpanHeight() {
         return getHeight();
     }
-
 
     @Override
     public int getLayoutType() {

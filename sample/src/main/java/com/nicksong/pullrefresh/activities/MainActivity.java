@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.nicksong.pullrefresh.R;
+import com.nicksong.pullrefresh.activities.ep.DrawerEpActivity;
+import com.nicksong.pullrefresh.activities.ep.ScrollerEpActivity;
+import com.nicksong.pullrefresh.activities.ex.TextViewActivity;
 
 
 /**
@@ -33,19 +36,19 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ExpandActivity.class));
+                startActivity(new Intent(MainActivity.this, DrawerEpActivity.class));
             }
         });
         findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, AllViewActivity.class));
+                startActivity(new Intent(MainActivity.this, ScrollerEpActivity.class));
             }
         });
         findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, OtherActivity.class));
+                startActivity(new Intent(MainActivity.this, TextViewActivity.class));
             }
         });
         findViewById(R.id.button6).setOnClickListener(new View.OnClickListener() {

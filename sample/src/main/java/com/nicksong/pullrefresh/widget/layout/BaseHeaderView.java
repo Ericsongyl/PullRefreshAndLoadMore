@@ -36,7 +36,6 @@ public abstract class BaseHeaderView extends RelativeLayout implements Refreshab
     }
 
     public BaseHeaderView(Context context, AttributeSet attrs, int defStyleAttr) {
-
         super(context, attrs, defStyleAttr);
         init();
     }

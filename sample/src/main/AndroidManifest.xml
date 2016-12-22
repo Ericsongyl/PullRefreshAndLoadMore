@@ -41,10 +41,10 @@
             android:label="拓展控件（混合模式2）"></activity>
         <activity
             android:name=".activities.ep.DrawerEpActivity"
-            android:label="拓展控件（抽屉模式）"></activity>
+            android:label="抽屉模式下拉刷新"></activity>
         <activity
             android:name=".activities.ep.ScrollerEpActivity"
-            android:label="拓展控件（滑块模式）"></activity>
+            android:label="滑块模式下拉刷新"></activity>
         <activity
             android:name=".activities.AllViewActivity"
             android:label="其他控件"></activity>
@@ -53,7 +53,7 @@
             android:label="ScrollView"></activity>
         <activity
             android:name=".activities.ex.TextViewActivity"
-            android:label="PullableTextView"></activity>
+            android:label="文本控件下拉刷新"></activity>
         <activity
             android:name=".activities.ex.RecyclerViewActivity"
             android:label="RecyclerView"></activity>

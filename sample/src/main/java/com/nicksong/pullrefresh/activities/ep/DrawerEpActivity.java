@@ -34,7 +34,7 @@ public class DrawerEpActivity extends AppCompatActivity implements BaseHeaderVie
         headerView = (BaseHeaderView) findViewById(R.id.header);
         footerView = (BaseFooterView) findViewById(R.id.footer);
 
-        list = getData(15);
+        list = getData(5);
 
         adapter = new ArrayAdapter(this, R.layout.item, list);
 
@@ -79,8 +79,8 @@ public class DrawerEpActivity extends AppCompatActivity implements BaseHeaderVie
 
     private List<String> getData(int n) {
         List<String> datas = new ArrayList<>(n);
-        for (int i = 0; i < n; i++) {
-            datas.add("第" + page + "页,第" + i + "条");
+        for (int i = 0; i <= n; i++) {
+            datas.add(page + "Page -- " + i);
         }
         return datas;
     }

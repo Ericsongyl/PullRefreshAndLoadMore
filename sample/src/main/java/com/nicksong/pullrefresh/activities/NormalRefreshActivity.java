@@ -22,13 +22,11 @@ import java.util.List;
  */
 public class NormalRefreshActivity extends AppCompatActivity implements BaseHeaderView.OnRefreshListener, BaseFooterView.OnLoadListener {
 
-    ListView listView;
-    BaseHeaderView headerView;
-    BaseFooterView footerView;
-
-    ArrayAdapter adapter;
-
-    List<String> list = new ArrayList<String>();
+    private ListView listView;
+    private BaseHeaderView headerView;
+    private BaseFooterView footerView;
+    private ArrayAdapter adapter;
+    private List<String> list = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,7 +82,7 @@ public class NormalRefreshActivity extends AppCompatActivity implements BaseHead
     private List<String> getData(int n) {
         List<String> datas = new ArrayList<>(n);
         for (int i = 0; i < n; i++) {
-            datas.add(page + "--" + i);
+            datas.add(page + "Page -- " + i);
         }
         return datas;
     }
