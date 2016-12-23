@@ -3,7 +3,7 @@ Android：实现下拉刷新、上拉加载更多的框架，支持嵌套常用�
 
 #效果图
 ##经典下拉刷新上拉加载（整体布局下移的下拉刷新、上移的上拉加载）
-![经典下拉刷新上拉加载](https://github.com/Ericsongyl/PullRefreshAndLoadMore/blob/master/gif/Gif1.gif)
+![经典下拉刷新上拉加载](https://github.com/Ericsongyl/PullRefreshAndLoadMore/blob/master/gif/GIF1.gif)
 
 
 ##抽屉模式下拉刷新上拉加载（整体布局不移动的下拉刷新、上拉加载）
