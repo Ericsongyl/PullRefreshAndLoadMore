@@ -2,8 +2,9 @@
 Android：实现下拉刷新、上拉加载更多的框架，支持所有view，如常用布局、TextView、ScrollView等。
 
 #如何使用
-这里以经典下拉刷新为例，其他类别使用与此类似。 
-1. 直接在相应的布局文件中使用PullRefreshLayout、NormalHeaderView、NormalFooterView，eg：
+这里以经典下拉刷新为例，其他类别使用与此类似。
+
+1、直接在相应的布局文件中使用PullRefreshLayout、NormalHeaderView、NormalFooterView，eg：
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <com.nicksong.pullrefresh.widget.layout.PullRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -35,7 +36,7 @@ Android：实现下拉刷新、上拉加载更多的框架，支持所有view，
 
 </com.nicksong.pullrefresh.widget.layout.PullRefreshLayout>
 ```
-2. 在源文件中实现BaseHeaderView.OnRefreshListener, BaseFooterView.OnLoadListener这两个方法，eg：
+2、在源文件中实现BaseHeaderView.OnRefreshListener, BaseFooterView.OnLoadListener这两个方法，eg：
 ```
 headerView.setOnRefreshListener(this);
 footerView.setOnLoadListener(this);
