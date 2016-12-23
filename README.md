@@ -1,6 +1,11 @@
 # PullRefreshAndLoadMore
 Android：实现下拉刷新、上拉加载更多的框架，支持所有view，如常用布局、TextView、ScrollView等。
 
+#下拉刷新apk下载
+![apk](https://github.com/Ericsongyl/PullRefreshAndLoadMore/blob/master/gif/qrcode.png)
+
+[或点此下载](https://github.com/Ericsongyl/PullRefreshAndLoadMore/releases/download/v1.0/sample-debug.apk)
+
 #如何使用
 这里以经典下拉刷新为例，其他类别使用与此类似。
 
