@@ -6,14 +6,6 @@
     android:padding="10dp">
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:text="弹性拖动"
-        android:visibility="gone"
-        android:textSize="18sp"/>
-
-    <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -52,6 +44,16 @@
         android:textSize="18sp"
         android:textColor="@color/color_black1"
         android:background="@color/color_gray"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:text="ScorllView下拉刷新"
+        android:textSize="18sp"
+        android:textColor="@color/color_black1"
+        android:background="@color/colorAccent"/>
 
     <Button
         android:id="@+id/button6"

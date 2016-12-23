@@ -7,7 +7,8 @@
         android:layout_alignTop="@+id/load_box"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="42dp"
-        android:background="#272636"/>
+        android:background="#272636"
+        android:visibility="invisible"/>
 
     <RelativeLayout
         android:id="@+id/load_box"

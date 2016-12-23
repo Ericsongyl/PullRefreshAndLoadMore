@@ -50,7 +50,7 @@
             android:label="其他控件"></activity>
         <activity
             android:name=".activities.ex.ScrollViewActivity"
-            android:label="ScrollView"></activity>
+            android:label="ScrollView下拉刷新"></activity>
         <activity
             android:name=".activities.ex.TextViewActivity"
             android:label="文本控件下拉刷新"></activity>

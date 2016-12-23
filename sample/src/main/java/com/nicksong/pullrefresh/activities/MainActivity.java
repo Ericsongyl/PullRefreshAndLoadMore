@@ -9,6 +9,7 @@ import android.view.View;
 import com.nicksong.pullrefresh.R;
 import com.nicksong.pullrefresh.activities.ep.DrawerEpActivity;
 import com.nicksong.pullrefresh.activities.ep.ScrollerEpActivity;
+import com.nicksong.pullrefresh.activities.ex.ScrollViewActivity;
 import com.nicksong.pullrefresh.activities.ex.TextViewActivity;
 
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, FlingActivity.class));
+                startActivity(new Intent(MainActivity.this, ScrollViewActivity.class));
             }
         });
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {

@@ -48,7 +48,7 @@ public class LockFooterView extends BaseFooterView {
         loadBox = findViewById(R.id.load_box);
         path = new Path();
         paint = new Paint();
-        paint.setColor(0x8888ff00);
+        paint.setColor(0x88AE5ED8);
         paint.setAntiAlias(true);
         paint.setStyle(Paint.Style.FILL);
     }
