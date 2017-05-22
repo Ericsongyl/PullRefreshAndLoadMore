@@ -101,6 +101,20 @@ public abstract class BaseHeaderView extends RelativeLayout implements Refreshab
         }
     }
 
+    /**
+     * 自动刷新
+     */
+    public void autoRefresh() {
+        if (pullRefreshLayout != null) {
+            float moveY = pullRefreshLayout.getMoveY();
+            if (moveY == 0) {
+                float headerSpanHeight = 310;
+                pullRefreshLayout.startMoveTo(0, headerSpanHeight);
+                setState(REFRESHING);
+            }
+        }
+    }
+
     @Override
     public void stopRefresh() {
         isLockState = false;
