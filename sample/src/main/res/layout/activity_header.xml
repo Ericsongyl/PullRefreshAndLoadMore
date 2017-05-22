@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.nicksong.pullrefresh.widget.layout.PullRefreshLayout
+    <com.nicksong.refreshAndLoad.widget.layout.PullRefreshLayout
         android:id="@+id/root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorPrimary">
 
-        <com.nicksong.pullrefresh.view.NormalFooterView
+        <com.nicksong.refreshAndLoad.view.NormalFooterView
             android:id="@+id/footer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -26,7 +26,7 @@
             android:dividerHeight="1px"
             android:paddingTop="200dp" />
 
-    </com.nicksong.pullrefresh.widget.layout.PullRefreshLayout>
+    </com.nicksong.refreshAndLoad.widget.layout.PullRefreshLayout>
 
     <ImageView
         android:id="@+id/anim_header"

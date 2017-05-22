@@ -8,11 +8,10 @@ import android.widget.AbsListView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.nicksong.pullrefresh.widget.layout.BaseFooterView;
-import com.nicksong.pullrefresh.widget.layout.BaseHeaderView;
-import com.nicksong.pullrefresh.widget.layout.FlingLayout;
+import com.nicksong.refreshAndLoad.widget.layout.BaseFooterView;
+import com.nicksong.refreshAndLoad.widget.layout.FlingLayout;
 import com.nicksong.pullrefresh.R;
-import com.nicksong.pullrefresh.widget.support.utils.ViewScrollUtil;
+import com.nicksong.refreshAndLoad.widget.support.utils.ViewScrollUtil;
 
 import java.util.ArrayList;
 import java.util.List;

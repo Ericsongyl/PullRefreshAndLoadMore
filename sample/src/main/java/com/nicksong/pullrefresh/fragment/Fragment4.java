@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.nicksong.pullrefresh.widget.layout.BaseFooterView;
-import com.nicksong.pullrefresh.widget.layout.BaseHeaderView;
+import com.nicksong.refreshAndLoad.widget.layout.BaseFooterView;
+import com.nicksong.refreshAndLoad.widget.layout.BaseHeaderView;
 import com.nicksong.pullrefresh.R;
 
 public class Fragment4 extends Fragment implements BaseHeaderView.OnRefreshListener, BaseFooterView.OnLoadListener {

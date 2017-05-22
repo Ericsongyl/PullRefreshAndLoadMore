@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.nicksong.pullrefresh.widget.layout.BaseFooterView;
-import com.nicksong.pullrefresh.widget.layout.BaseHeaderView;
+import com.nicksong.refreshAndLoad.widget.layout.BaseFooterView;
+import com.nicksong.refreshAndLoad.widget.layout.BaseHeaderView;
 import com.nicksong.pullrefresh.R;
 
 import java.util.ArrayList;

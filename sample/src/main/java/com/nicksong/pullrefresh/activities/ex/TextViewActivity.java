@@ -3,8 +3,8 @@ package com.nicksong.pullrefresh.activities.ex;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.nicksong.pullrefresh.widget.layout.BaseFooterView;
-import com.nicksong.pullrefresh.widget.layout.BaseHeaderView;
+import com.nicksong.refreshAndLoad.widget.layout.BaseFooterView;
+import com.nicksong.refreshAndLoad.widget.layout.BaseHeaderView;
 import com.nicksong.pullrefresh.R;
 
 /**

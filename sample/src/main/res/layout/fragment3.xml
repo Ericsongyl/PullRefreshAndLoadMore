@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.nicksong.pullrefresh.widget.layout.PullRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.nicksong.refreshAndLoad.widget.layout.PullRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary">
 
-    <com.nicksong.pullrefresh.view.NormalHeaderView
+    <com.nicksong.refreshAndLoad.view.NormalHeaderView
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
 
-    <com.nicksong.pullrefresh.view.NormalFooterView
+    <com.nicksong.refreshAndLoad.view.NormalFooterView
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -107,4 +107,4 @@
 
     </android.support.v4.widget.NestedScrollView>
 
-</com.nicksong.pullrefresh.widget.layout.PullRefreshLayout>
+</com.nicksong.refreshAndLoad.widget.layout.PullRefreshLayout>

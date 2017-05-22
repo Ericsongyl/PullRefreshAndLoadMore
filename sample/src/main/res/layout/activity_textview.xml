@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.nicksong.pullrefresh.widget.layout.PullRefreshLayout
+<com.nicksong.refreshAndLoad.widget.layout.PullRefreshLayout
     android:id="@+id/root"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_yellow1">
 
-    <com.nicksong.pullrefresh.view.NormalHeaderView
+    <com.nicksong.refreshAndLoad.view.NormalHeaderView
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
 
-    <com.nicksong.pullrefresh.view.NormalFooterView
+    <com.nicksong.refreshAndLoad.view.NormalFooterView
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <com.nicksong.pullrefresh.widget.extras.PullableTextView
+    <com.nicksong.refreshAndLoad.widget.extras.PullableTextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/white"
@@ -26,4 +26,4 @@
         android:text="1\n2\n3\n4\n5\n6\n7\n8"
         android:textSize="15sp"/>
 
-</com.nicksong.pullrefresh.widget.layout.PullRefreshLayout>
+</com.nicksong.refreshAndLoad.widget.layout.PullRefreshLayout>

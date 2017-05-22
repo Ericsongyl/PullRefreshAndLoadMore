@@ -23,6 +23,7 @@ android {
 }
 
 dependencies {
+    compile project(':pullrefresh')
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.android.support:support-v4:25+'
     compile 'com.android.support:appcompat-v7:25+'

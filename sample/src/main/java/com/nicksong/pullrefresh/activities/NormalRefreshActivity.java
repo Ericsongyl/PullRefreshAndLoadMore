@@ -2,16 +2,11 @@ package com.nicksong.pullrefresh.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
-import android.util.SparseArray;
-import android.view.View;
-import android.widget.AbsListView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.nicksong.pullrefresh.widget.layout.BaseFooterView;
-import com.nicksong.pullrefresh.widget.layout.BaseHeaderView;
+import com.nicksong.refreshAndLoad.widget.layout.BaseFooterView;
+import com.nicksong.refreshAndLoad.widget.layout.BaseHeaderView;
 import com.nicksong.pullrefresh.R;
 
 import java.util.ArrayList;
