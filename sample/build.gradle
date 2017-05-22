@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion ANDROID_BUILD_SDK_VERSION as int
-    buildToolsVersion ANDROID_BUILD_TOOLS_VERSION
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         applicationId 'com.nicksong.pullrefresh'
-        minSdkVersion ANDROID_BUILD_MIN_SDK_VERSION as int
-        targetSdkVersion ANDROID_BUILD_TARGET_SDK_VERSION as int
-        versionCode VERSION_CODE  as int
-        versionName VERSION_NAME
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
         multiDexEnabled true
     }
     buildTypes {
@@ -24,8 +24,8 @@ android {
 
 dependencies {
     compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.android.support:support-v4:23.2.1'
-    compile 'com.android.support:appcompat-v7:23.2.1'
-    compile 'com.android.support:design:23.2.1'
-    compile 'com.android.support:recyclerview-v7:23.2.1'
+    compile 'com.android.support:support-v4:25+'
+    compile 'com.android.support:appcompat-v7:25+'
+    compile 'com.android.support:design:25+'
+    compile 'com.android.support:recyclerview-v7:25+'
 }
